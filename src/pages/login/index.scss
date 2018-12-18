@@ -1,0 +1,40 @@
+.login-container {
+	background-color: #2d3a4b;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	.login-form {
+		left: 0;
+		margin: 120px auto;
+		max-width: 100%;
+		padding: 35px 35px 15px;
+		position: absolute;
+		right: 0;
+		color: #fff;
+		width: 480px;
+		.title {
+			line-height: 40px;
+			text-align: center;
+			color: #fff;
+			font-size: 24px;
+		}
+		.ant-form-item {
+			color: #fff;
+		}
+		.login-form-button {
+			width: 100%;
+		}
+		.login-form-forgot {
+			float: right;
+		}
+		.ant-checkbox-wrapper {
+			color: #fff;
+		}
+		.ant-input {
+			height: 40px;
+		}
+		.fr {
+			float: right;
+		}
+	}
+}

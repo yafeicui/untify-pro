@@ -1,0 +1,31 @@
+.line-dialig {
+  .line-box {
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    position: relative;
+    border: 1px solid #eee;
+    height: 260px;
+    width: 850px;
+    border-radius: 10px;
+
+    .no-message {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+    }
+  }
+  .date-content {
+    text-align: right;
+    margin-bottom: 30px;
+    .ant-calendar-picker-input {
+      text-align-last: left;
+    }
+    .search-echart {
+      margin-left: 15px;
+      width: 80px;
+    }
+  }
+}

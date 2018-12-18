@@ -1,0 +1,130 @@
+$reject-color: rgb(226, 60, 57);
+$pass-color: rgb(62, 144, 247);
+
+.appro-progress-cont {
+  overflow: auto;
+}
+.progress-content {
+  padding: 30px 30px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  // min-width: 1200px;
+  overflow: auto;
+  // 开始 步骤
+  .start-item {
+    min-width: 120px;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+  }
+  // 结束
+  .end-item {
+    margin-left: 10px;
+  }
+  .step-item {
+    flex: 1; // background: orange;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    min-width: 220px;
+    display: flex;
+    position: relative;
+  }
+  .step-app {
+    min-width: 220px;
+    margin-bottom: 100px;
+    display: flex;
+    position: relative;
+  }
+
+  .step-circle {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #ccc;
+  }
+  .step-title {
+    margin-left: 10px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  .step-line {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 15px 0 0 10px;
+  }
+  // 步骤下展示的信息
+  .show-cont {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    .step-show {
+      // background: orange;
+      display: flex;
+      justify-content: space-between;
+      .show-name {
+        margin-right: 20px;
+      }
+    }
+  }
+  // 最后一步APP审批
+  .app-cont {
+    .step-show {
+      width: 180px;
+      position: relative;
+      left: 0px;
+    }
+  }
+  .before-item {
+    color: #fff;
+    background: $pass-color;
+    border: 1px solid $pass-color;
+  }
+  .error-item {
+    color: $reject-color; // background: $reject-color;
+    border: 1px solid $reject-color;
+  }
+  // 展示状态
+  .status-cont {
+    display: flex;
+    justify-content: space-between;
+    .status-title,
+    .status-value {
+      font-weight: bold;
+    }
+  }
+  // 审批拒绝color为red
+  .reject-item {
+    color: $reject-color;
+  }
+  // 审批通过color为
+  .pass-item {
+    color: $pass-color;
+  }
+  // 待我审批的可审批人
+  .appro-user-cont {
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+    .user-name {
+      width: 70px;
+    }
+    .user-value {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .appro-user {
+      margin-left: 10px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+}
+.padding-pro {
+  // padding: 30px 150px;
+}

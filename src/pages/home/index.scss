@@ -1,0 +1,63 @@
+.homeContent {
+  .tableTitle {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .applyContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .applyTitle {
+      height: 32px;
+      line-height: 32px;
+      margin-right: 10px;
+    }
+    .applyInput {
+      width: 300px;
+    }
+  }
+  .ant-form-item {
+    width: 100% !important;
+  }
+  .tableContent {
+    margin-top: 30px;
+    .table-operate {
+      cursor: pointer;
+    }
+    .orange-color {
+      color: orange;
+    }
+    .red-color {
+      color: red;
+    }
+    .num-span {
+      color: rgb(23, 134, 255);
+      cursor: pointer;
+    }
+    .ant-divider,
+    .ant-divider-vertical {
+      margin: 0 4px;
+    }
+  }
+  .home-page-form {
+    .ant-col-6,
+    .ant-col-5 {
+      padding-right: 0 !important;
+    }
+    .ant-form-item {
+      margin-right: 6px;
+    }
+    .button-create-plan .ant-form-item-control {
+      text-align: right;
+    }
+    .create-button-group {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 3px;
+    }
+  }
+}

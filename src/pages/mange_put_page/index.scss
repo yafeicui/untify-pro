@@ -1,0 +1,40 @@
+.mange-put-page {
+  .radio-group {
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 50px;
+  }
+  .applyContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .applyTitle {
+      height: 32px;
+      line-height: 32px;
+      margin-right: 10px;
+    }
+    .applyInput {
+      width: 300px;
+    }
+  }
+  .button_right {
+    position: absolute;
+    right: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-left: 6px;
+  }
+  .width-limit {
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.put-page-modal {
+  .ant-form-item-label {
+    text-align: right;
+  }
+}

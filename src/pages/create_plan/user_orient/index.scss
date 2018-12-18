@@ -1,0 +1,32 @@
+.orient-content {
+  display: flex;
+  .orient-left {
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    .button-style {
+      width: 140px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .desc-content {
+      width: 140px;
+      font-weight: bold;
+      color: orange;
+    }
+  }
+  .orient-form {
+    flex: 1;
+    .delete-button {
+      border: 1px solid red;
+      text-align: center;
+      border-radius: 4px;
+      color: red;
+      cursor: pointer;
+    }
+    .next-button {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

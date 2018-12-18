@@ -1,0 +1,36 @@
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  .carousel-cont {
+    width: 70%;
+    white-space: nowrap;
+    // overflow: hidden;
+    // background: pink;
+    text-align: center;
+    .notice-box {
+      height: 64px;
+      line-height: 64px;
+      color: black;
+    }
+  }
+  .right-document {
+    display: flex;
+    .document-a {
+      margin-top: 3px;
+      height: 65px;
+      line-height: 65px;
+      margin-right: 10px;
+    }
+  }
+  .logout-button {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 20px;
+    align-items: center;
+    .ant-dropdown-link {
+      color: rgb(38, 142, 255);
+      cursor: pointer;
+    }
+  }
+}

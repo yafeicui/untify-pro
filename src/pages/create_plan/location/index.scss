@@ -1,0 +1,28 @@
+.loaction-content {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .table-box {
+    padding: 30px 100px;
+    .check-box {
+      margin-bottom: 20px;
+    }
+    .select-box {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+  }
+  .button-position {
+    padding: 0px 100px;
+  }
+  .next-button {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,43 @@
+.register-container {
+  background-color: #2d3a4b;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  .register-form {
+    left: 0;
+    margin: 50px auto;
+    max-width: 100%;
+    padding: 35px 35px 15px;
+    position: absolute;
+    right: 0;
+    width: 480px;
+    color: #fff;
+    .title {
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+    }
+    .ant-form-item {
+      color: #fff;
+    }
+    .register-form-button {
+      width: 100%;
+    }
+    .register-form-forgot {
+      float: right;
+    }
+    .ant-checkbox-wrapper {
+      color: #fff;
+    }
+    .ant-input {
+      height: 40px;
+    }
+    .fr {
+      float: right;
+    }
+  }
+  label {
+    color: white;
+  }
+}
